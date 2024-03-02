@@ -1,0 +1,25 @@
+<table class="table is-fullwidth">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Category</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each location.businesss}}
+    <tr>
+      <td>
+        {{title}}
+      </td>
+      <td>
+        {{category}}
+      </td>
+      <td>
+        <a href="/location/{{../location._id}}/deletebusiness/{{_id}}" class="ui icon button">
+          <i class="fas fa-trash"></i>
+        </a>
+      </td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>

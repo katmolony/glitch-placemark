@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "firstName": "Homer",
+      "lastName": "Simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "_id": "d5e1ded5-2d40-4b40-a622-beab38196c29"
+    },
+    {
+      "firstName": "Marge",
+      "lastName": "Simpson",
+      "email": "marge@simpson.com",
+      "password": "secret",
+      "_id": "cd20459e-0e91-48ad-9b65-9d96bf9d50f2"
+    },
+    {
+      "firstName": "Bart",
+      "lastName": "Simpson",
+      "email": "bart@simpson.com",
+      "password": "secret",
+      "_id": "3ec1a6dd-f55f-43e5-a7be-397955a764cb"
+    }
+  ],
+  "locations": [
+    {
+      "title": "Italy",
+      "_id": "fb4142c1-3f10-46c0-ba08-685733bc1585"
+    },
+    {
+      "title": "Spain",
+      "_id": "5b5239a1-2b03-49e2-aaa4-ac64595280dd"
+    },
+    {
+      "title": "Portugal",
+      "_id": "3071df90-59b6-44f0-9de5-fd7063d17898"
+    }
+  ],
+  "businesss": [
+    {
+      "title": "Demo",
+      "duration": null,
+      "_id": "bebccadf-4c20-4e6d-b23e-58c358e0eda2",
+      "locationid": "b42ddc40-5bad-4813-9a30-489ed7c13e30"
+    },
+    {
+      "title": "Demo 2",
+      "category": "Shop",
+      "_id": "8711c0fb-7ac0-43b9-a7f2-ae9cd62e6fb9",
+      "locationid": "b42ddc40-5bad-4813-9a30-489ed7c13e30"
+    }
+  ]
+}
